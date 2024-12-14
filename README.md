@@ -1,5 +1,3 @@
-# osTicket-Prerequisites-Installation
-Prerequisites and installation of a open-source help desk ticketing system
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
