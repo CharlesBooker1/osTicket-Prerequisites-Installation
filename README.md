@@ -3,25 +3,17 @@
 </p>
 <h1 align = "center">osTicket - Prerequisites and Installation</h1>
 
-This guide provides a comprehensive step-by-step process for installing osTicket, an open-source help desk ticketing platform.
-
----
-
 ## Platforms and Tools Used
 
 - **Microsoft Azure** (Virtual Machines/Compute)
 - **Remote Desktop Connection**
 - **Internet Information Services (IIS)**
 
-![Microsoft Azure](https://via.placeholder.com/600x400?text=Microsoft+Azure)
-
 ---
 
 ## Operating System
 
 - **Windows 10** (Version 21H2)
-
-![Windows 10](https://via.placeholder.com/600x400?text=Windows+10)
 
 ---
 
@@ -39,8 +31,6 @@ This guide provides a comprehensive step-by-step process for installing osTicket
 7. Configure system permissions and proceed with the osTicket installation.
 8. Optionally, keep a notepad handy for recording usernames and passwords.
 
-![Requirements Checklist](https://via.placeholder.com/600x400?text=Requirements+Checklist)
-
 ---
 
 ## Step-by-Step Installation
@@ -54,8 +44,6 @@ This guide provides a comprehensive step-by-step process for installing osTicket
 5. Ensure the options under **Common HTTP Features** are also selected.
 6. Test the setup by entering `127.0.0.1` in your VM's browser. You should see the IIS welcome page.
 
-![Enabling IIS](https://via.placeholder.com/600x400?text=Enabling+IIS)
-
 ---
 
 ### 2. Preparing Installation Files
@@ -68,8 +56,6 @@ This guide provides a comprehensive step-by-step process for installing osTicket
    - Enable "Install As Window Service" with the default service name `MySQL`.
    - Set the password to `Password1` for this tutorial.
 
-![Preparing Installation Files](https://via.placeholder.com/600x400?text=Preparing+Files)
-
 ---
 
 ### 3. Configuring IIS with PHP
@@ -77,8 +63,6 @@ This guide provides a comprehensive step-by-step process for installing osTicket
 1. Open **IIS Manager** as an administrator.
 2. Use the **PHP Manager** option to register the PHP version by pointing to the `php-cgi` file in the PHP directory.
 3. Restart IIS for the changes to take effect.
-
-![Configuring IIS with PHP](https://via.placeholder.com/600x400?text=Configuring+PHP)
 
 ---
 
@@ -97,8 +81,6 @@ This guide provides a comprehensive step-by-step process for installing osTicket
    - Password: `Password1`
 6. Complete the installation and verify access to the help desk system.
 
-![osTicket Installation](https://via.placeholder.com/600x400?text=osTicket+Installation)
-
 ---
 
 ### 5. Post-Installation Cleanup
@@ -106,13 +88,10 @@ This guide provides a comprehensive step-by-step process for installing osTicket
 1. Delete the `setup` folder from `C:\inetpub\wwwroot\osTicket`.
 2. Set `ost-config.php` to "read-only" mode by adjusting its permissions.
 
-![Post-Installation Cleanup](https://via.placeholder.com/600x400?text=Cleanup)
-
 ---
 
 ## Final Notes
 
 You have now successfully installed osTicket! If you encounter issues, verify that the required PHP extensions are enabled, database permissions are correctly set, and IIS settings are properly configured.
 
-![Final Notes](https://via.placeholder.com/600x400?text=Success)
 
